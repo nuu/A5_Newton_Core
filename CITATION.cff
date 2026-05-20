@@ -1,0 +1,31 @@
+cff-version: 1.2.0
+message: "If you use this Lean package, please cite it as below."
+type: software
+title: "A5 Newton Core: Lean Formalization of an Operational 3D Newton-Core Framework"
+authors:
+  - given-names: "Masaru"
+    family-names: "Numagaki"
+    orcid: "https://orcid.org/0000-0001-5683-0845"
+version: "1.0"
+date-released: "2026-05-20"
+repository-code: "https://github.com/nuu/A5_Newton_Core"
+abstract: >
+  A5 Newton Core is a Lean 4/mathlib audit package accompanying an
+  operational-3D Newton-core paper.  The package fixes the finite
+  12-vertex icosahedral seed used as the lightweight A5 substrate, registers
+  its distance-shell profile and zero-mode-removed Green profile, and verifies
+  the finite ordering and normalization statements used by the paper.  It also
+  formalizes the conditional algebra behind the operational area/flux bridge,
+  the second-order time-update selector, persistent pair-readout support, and
+  a claim firewall separating M-layer finite facts from bridge assumptions and
+  open physical targets.  The package is deliberately scoped: it does not claim
+  to derive Newton's constant, a continuum limit, general relativity, quantum
+  gravity, or an unconditional inverse-square law from the raw finite seed.
+license: Apache-2.0
+keywords:
+  - "A5 symmetry"
+  - "Icosahedral seed graph"
+  - "Finite Green functions"
+  - "Operational 3D readout"
+  - "Newtonian limit"
+  - "Second-order selector"
