@@ -5,3 +5,17 @@ import A5NewtonCore.MaterialExportBundle
 import A5NewtonCore.ClaimFirewall
 import A5NewtonCore.SecondOrderSelector
 import A5NewtonCore.PairReadoutSupport
+
+import A5NewtonCore.DistanceKernelLocalization
+import A5NewtonCore.CrossTermCarrierDiagnostic
+import A5NewtonCore.SourceCoupledVariationalSign
+import A5NewtonCore.CrossTermSideConvexity
+import A5NewtonCore.ClaimFirewall_CrossTermPatch
+
+import A5NewtonCore.NoAbsoluteStasis
+import A5NewtonCore.WitnessAdmissibility
+import A5NewtonCore.PIRNoBias
+import A5NewtonCore.LocalEdgeGradientWitness
+import A5NewtonCore.ActiveUpdateBias
+import A5NewtonCore.EdgeVariationAdmission
+import A5NewtonCore.BridgeRegistry_CurrentPaper
